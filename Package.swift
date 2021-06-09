@@ -5,9 +5,8 @@ import PackageDescription
 let package = Package(
     name: "MQTT-Client-Framework",
     platforms: [
-        .iOS(.v8),         //.v8 - .v13
-        .macOS(.v10_11),    //.v10_10 - .v10_15
-        .tvOS(.v9),        //.v9 - .v13
+        .iOS(.v8)
+
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
